@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Hô</title>
+    <style >
+        .body{
+            font-family:  sans-serif;
+            font-size: 16px;
+        }
+        .div_tong{
+            width: 100%;
+            height: 700px;
+            /* background: pink; */
+        }
+        .div_trai{
+            width:30%;
+            height: 100%;
+            background: black;
+            float: left;
+            position: relative;
+        }
+        .div_vien{
+            width:5%;
+            height: 100%;
+            /* background: rgb(238, 76, 197); */
+            float: left;
+            background-image: url(soc.jpg);
+            position: relative;
+        }
+        .div_phai{
+            width: 65%;
+            height: 100%;
+            float: left;
+            /* background: bisque; */
+            background-image: url(sua1.gif);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .thamgia{
+            width: 70%;
+            height: 100%;
+            /* background: rgb(238, 255, 0); */
+            float: left;
+        }
+        .clb{
+            width: 100%;
+            height: 20%;
+            /* background: rgb(81, 170, 192); */
+            position: relative;
+        }
+        h1{
+            color: #EF9774;
+            font-size: 35px;
+            position: absolute;
+        }
+        .bang{
+            width: 100%;
+            height: 80%;
+            /* background: rgb(252, 194, 4); */
+        }
+        .bang input{
+            padding-left: 7px;
+            margin-right: 7px;
+            margin-bottom: 10px;
+        }
+        .anh{
+            width: 30%;
+            height: 70%;
+            float: left;
+            /* background: rgb(82, 82, 82); */
+        }
+        form{
+            margin-left: 30px;
+            background: #A5F8A8;
+            width: 80%;
+            height: 100%;
+            font-size: 17px;
+        
+        }
+        .anh img{
+            width: 50%;
+            height: 30%;
+            margin-bottom: 8px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div_tong">
+        <div class="div_trai">
+            <img src="sanho.gif" alt="san hô" style="width :115% ; height:100% ; z-index: 99; position: absolute;  ">
+        </div>
+        <div class="div_vien"></div>
+        <div class="div_phai">
+            <div class="thamgia">
+                <div class="clb">
+                    <h1>THAM GIA CLB</h1>
+                    <p style="position: absolute;font-size: 20px;margin-left: 30px;margin-top: 70px;" >Quý độc giả hãy điền đầy đủ thông tin để tham gia phát triển Câu lạc bộ </p>
+                </div>
+                <div class="bang">
+                    <form action="">
+                        <table>
+                            <tbody>
+                                <tr>
+                                   <td> Họ và Tên </td>
+                                   <td> <input type="text" size="25px"></td>
+                                   <td>*</td>
+                                </tr>
+                                <tr>
+                                    <td> Địa Chỉ </td>
+                                    <td> <input type="text" size="30px"></td>
+                                    <td>*</td>
+                                 </tr>
+                                 <tr>
+                                    <td> Email </td>
+                                    <td> <input type="text" size="25px"></td>
+                                    <td>*</td>
+                                 </tr>
+                                 <tr>
+                                    <td> Số Điện Thoại </td>
+                                    <td> <input type="number" size="25px"></td>
+                                    <td>*</td>
+                                 </tr>
+                                 <tr>
+                                    <td> Ngày Sinh </td>
+                                    <td> <input type="text" size="5px">/
+                                        <input type="text" size="5px">/
+                                        <input type="text" size="5px">/
+                                    </td>
+                                    <td>*</td>
+                                 </tr>
+                                 <tr>
+                                    <td> Đề Tài </td>
+                                    <td> <select name="" id="">
+                                        <option value=""  size="25px" >Tìm hiểu sửa  biến</option>
+                                    </select> </td>
+                                 </tr>
+                                 <tr>
+                                     <td>Nhóm</td>
+                                     <td> <input type="radio" name="nhom">Nghiên cứu <br>
+                                      <input type="radio" name="nhom">Hải ngư<br>
+                                      <input type="radio" name="nhom">Viễn Dương <br>
+                                     <input type="radio" name="nhom">Mỹ Thuật <br>
+                                      <input type="radio" name="nhom">Thực Phẩm <br>
+                                      <input type="radio" name="nhom">Sinh viên <br>
+                                    </td> 
+                                 </tr>
+                                 <tr>
+                                     <td>Gửi Hình</td>
+                                     <td> <input type="file"></td>
+                                 </tr>
+                                 <tr>
+                                     <td>Tài Liệu</td>
+                                     <td>
+                                        <input type="checkbox" name="" id="">Sinh vật  <br>
+                                        <input type="checkbox" name="" id="">Các loại sứa biển <br>
+                                        <input type="checkbox" name="" id="">San Hô <br>
+                                        <input type="checkbox" name="" id="">Môi trường biển <br>
+                                        <input type="checkbox" name="" id="">Khí Hậu <br>
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td> 
+                                         <button> Tham Gia</button>
+                                     </td>
+                                     <td> 
+                                        <button type="reset"> Xóa Thông Tin</button>
+                                     </td>
+                                 </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div class="anh">
+                <img src="nhom1a.jpg" alt="">
+                <img src="nhom1b.jpg" alt="">
+                <img src="nhom1c.jpg" alt="">
+                <img src="nhom1d.jpg" alt="">
+            </div>       
+        </div>
+    </div>
+</body>
+</html>
